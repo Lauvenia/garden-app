@@ -18,6 +18,8 @@ else:
 # Determine advice based on the plant type
 if plant_type == "flower":
     advice += "Use fertiliser to encourage blooms."
+elif plant_type == "fruit":
+    advice += "Do not use fertilizer"
 elif plant_type == "vegetable":
     advice += "Keep an eye out for pests!"
 else:
